@@ -1,0 +1,43 @@
+body {
+  text-align: center;
+  font-family: Georgia (serif);
+  color: #ffffff;
+  font-size: 28px;
+}
+
+ul {
+list-style-type: none;
+margin: 0;
+padding: 0;
+overflow: hidden;
+background-color: #6bf7a5;
+}
+
+li {
+  float: right;
+}
+
+.description{
+margin: 50px auto;
+style="font-size:10vw"
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 15px;
+}
+
+li a:hover {
+  background-color: #ffa200;
+  color: #000000;
+}
+
+img:hover {
+  opacity: 0.5;
+}
+
+.on {
+  background-color: #ff0000;
+}
