@@ -1,0 +1,37 @@
+<!doctype html>
+
+<html>
+<head>
+<meta charset="utf-8">
+<title>Jump</title>
+<link rel="stylesheet" type="text/css" href="jump.css">
+</head>
+
+<body>
+  <script>
+    function Jump() {
+      
+      var x = document.getElementById("L_input");
+      var y = document.getElementById("R_input");
+      
+      var left= x.value;
+      var right= y.value;
+      
+      x.value=""+right;
+      y.value=""+left;
+      
+      
+      var change = document.getElementById("toggle");
+      if (change.value=="JUMP>") change.value = "JUMP<";
+       else change.value = "JUMP>";
+    }
+  </script>
+
+<form>
+  <input type = "text" id = "L_input" />
+  <INPUT TYPE = "button" value="JUMP>" id="toggle" onclick="Jump()">
+  <input type = "text" id = "R_input" />
+</form>
+
+</body>
+</html>
